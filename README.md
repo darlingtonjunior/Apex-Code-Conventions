@@ -323,10 +323,15 @@ for (Integer i = 0; i < 10; i++) { // CORRECT
 
 * Object casts:
 
-```java
+```java 
 ObjectA objInstance=(ObjectA)anotherType; // WRONG
 
 ObjectA objInstance = (ObjectA)anotherType; // ACCEPTABLE
 
 ObjectA objInstance = (ObjectA) anotherType; // CORRECT
 ```
+
+## 9. Separation of Concerns (SoC)
+
+“[Separation of Concerns], even if not perfectly possible, is yet the only available technique for effective ordering of one’s thoughts, that I know of.” — Edsger W. Dijkstra
+
